@@ -1,9 +1,1 @@
-if game.PlaceId == 131623223084840 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MakalHub/Script/refs/heads/main/etfb.lua"))()
-else
-    if game.PlaceId == 286090429 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MakalHub/Script/refs/heads/main/arsenal.lua"))()
-    end
-end
-
-print("Made by @decomp1le")
+local a={[131623223084840]='https://raw.githubusercontent.com/MakalHub/Script/refs/heads/main/etfb.lua',[286090429]='https://raw.githubusercontent.com/MakalHub/Script/refs/heads/main/arsenal.lua',[136801880565837]='https://raw.githubusercontent.com/MakalHub/Script/refs/heads/main/flick.lua'}local b=a[game.PlaceId]if b then loadstring(game:HttpGet(b))()print('Loaded script for PlaceId:',game.PlaceId)else warn('Unsupported game:',game.PlaceId)end print'Made by @decomp1le'
