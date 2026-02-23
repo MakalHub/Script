@@ -4,6 +4,8 @@ elseif game.PlaceId == 286090429 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MakalHub/Script/refs/heads/main/arsenal.lua"))()
 elseif game.PlaceId == 136801880565837 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MakalHub/Script/refs/heads/main/flick.lua"))()
+elseif game.PlaceId == 142823291 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MakalHub/Script/refs/heads/main/mm2.lua"))()
 end
 
 print("Made by @decomp1le")
